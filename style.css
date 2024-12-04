@@ -1,0 +1,378 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+    padding: unset;
+    margin: unset;
+    border: unset;
+
+    box-sizing: border-box;
+}
+
+.navbar__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+    padding: 20px 60px;
+    background-color: #50235440;
+    backdrop-filter: blur(2px);
+
+}
+
+.navbar__nav__lista {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    color: #fff;
+
+}
+/* NO USAR MARGIN */
+.navbar__nav__buttons button  {
+    padding: 16px 42px;
+    background-color: #341238;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+
+}
+.navbar__nav__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.background {
+    background-image: url(assets/div\ \(1\).jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.background-blur {
+    padding: 0px 60px;
+    backdrop-filter: blur(20px);
+
+}
+
+
+/* 
+    Esta clase se la das al body, y además le pasas una medida Fija
+    no le puedes dar medidas fijas al body porque evitas que cresca y se adapte
+*/
+.backgroundpage {
+    background: linear-gradient(to bottom, #41143D, #FEAEE2);
+    /* width: 1564px;
+    height: 3736px; */
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 150px 60px;
+
+}
+
+.jumbotron__tittle {
+    display: flex;
+    font-size: 64px;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.jumbotron__parrafo {
+    display: flex;
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.jumbotron__iconos {
+    display: flex;
+    gap: 67px;
+    justify-content: center;
+
+}
+.contenedor__tittleandicono {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+
+}
+
+
+.contenedor__tittleandicono__tittle {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px 4px #00000025;
+}
+
+.contenedor__canciones {
+    display: flex;
+    flex-direction: row;
+    /* Darle medidas fijas es como quitarle el fill-container */
+    /* width: 1564px;
+    height: 370px; */
+
+    /* No olvides la propiedad de wrap para que se adapte si no hay espacio */
+    flex-wrap: wrap;
+
+    gap: 20px;
+    padding: 30px 0px;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
+    
+}
+
+.contenedor__canciones__autor {
+    background: linear-gradient(to left, #983C7F, #7A7A7A);
+    border-radius: 20px;
+    box-shadow: 3px 10px 7.1px #00000025;
+    padding: 6px 10px;
+    /* width: 346px;
+    height: 370px; */
+}
+
+.contenedor__canciones__autor__foto {
+    display: flex;
+    width: 326px;
+    height: 223px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 26px;
+    box-shadow: 0px 4px 4px #00000025;
+}
+
+.contenedor__canciones__autor__descripcion__tituloyvaloracion__titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    align-items: start;
+    align-items: left;
+}
+
+.contenedor__canciones__autor__descripcion__tituloyvaloracion__valoracion {
+    font-size: 14px;
+    color: white;
+    justify-content: right;
+    align-items: start;
+
+}
+
+.contenedor__canciones__autor__descripcion__tituloyvaloracion{
+    display: flex;
+    gap: 30px;
+    padding: 20px 10px 10px;
+    align-items: start;
+}
+
+.contenedor__canciones__autor__descripcion__autor{
+    color: #FCF7F760;
+    font-size: 12px;
+    padding: 0px 10px 0px;
+
+}
+
+
+.contenedor__canciones__autor__footer__spotify {
+    display: flex;
+    color: white;
+    align-items: end;
+    justify-content: left;
+    gap: 6px;
+    padding: 27px 10px 6px ;
+}
+
+.contenedor__canciones__autor__footer__iconos{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    gap: 8px;
+    
+}
+.contenedor__canciones__autor__footer {
+    display: flex;
+    gap: 150px;
+    align-items: end;
+    padding: 0px 0px 10px;
+}
+
+.seccion__tituloyboton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 60px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.seccion__tituloyboton__titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    width: 612px;
+    height: 117px;
+    text-align: center;
+    align-items: start;
+    text-shadow: 4px 4px 4px #00000025;
+
+}
+
+.seccion__tituloyboton__boton {
+    width: 380px;
+    height: 53px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: #40D500;
+    border-radius: 31px;
+    box-shadow: 14px 11px 8.2px #00000025;
+
+}
+
+.seccion__acciones__columna {
+    display: flex;
+    padding: 18px 60px 0px 60px;
+    gap: 20px;
+    flex-direction: row;
+
+}
+.seccion__acciones__columna__fila {
+    display: flex;
+    width: 712px;
+    height: 144px;
+    padding: 0px 100px;
+    gap: 20px;
+    background-color: #85768260;
+    border-radius: 84px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px #00000025;
+}
+
+.seccion__acciones__columna__fila__texto {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 460px;
+}
+
+.seccion2__titulo {
+    text-align: center;
+    /* Darle medidas fijas es como quitarle el fill-container */
+    /* width: 1564;
+    height: 190px; */
+}
+
+
+.seccion2__titulo__texto {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding: 60px 0px 60px;
+    text-shadow: 8px 4px 4px #00000025;
+    
+}
+
+.seccion2__titulo__vermas {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0px 4px 4px #00000025;
+}
+
+.seccion2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px 38px;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    padding: 0px 60px;
+}
+
+.footer{
+    display: flex;
+    /* Darle medidas fijas es como quitarle el fill-container */
+    /* width: 1564px;
+    height: 224px; */
+    padding: 160px 82px;
+    flex-direction: row;
+    gap: 210px;
+}
+
+.footer__seccion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.footer__seccion__titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.footer__seccion__titulo__datos{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+}
+
+.footer__seccion__titulo__datos2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+}
+
+.footer__seccion__titulo__datos3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF30;
+    background-color: #62484851;
+    width: 334px;
+    height: 46px;
+    padding: 4px 10px 4px 43px;
+    gap: 10px;
+    text-align: left;
+}
+
+.footer__seccion__boton {
+    background-color: #D592FF61;
+    color: #FFFFFF;
+    text-align: center;
+    width: 334px;
+    height: 46px;
+    padding: 10px;
+}
+
+.footer__suscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 452px;
+    height: 196px;
+}
