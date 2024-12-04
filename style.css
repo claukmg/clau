@@ -58,15 +58,8 @@
 
 }
 
-
-/* 
-    Esta clase se la das al body, y además le pasas una medida Fija
-    no le puedes dar medidas fijas al body porque evitas que cresca y se adapte
-*/
-.backgroundpage {
+.backgroundpage{
     background: linear-gradient(to bottom, #41143D, #FEAEE2);
-    /* width: 1564px;
-    height: 3736px; */
 }
 
 .jumbotron {
@@ -77,17 +70,23 @@
 
 .jumbotron__tittle {
     display: flex;
+    text-align: center;
     font-size: 64px;
     align-items: center;
+    justify-content: center;
     font-weight: bold;
     color: #fff;
 }
 
 .jumbotron__parrafo {
     display: flex;
+    text-align: center;
     font-size: 48px;
+    align-items: center;
+    justify-content: center;
     color: #fff;
     font-weight: bold;
+    padding: 20px;
 
 }
 
@@ -115,13 +114,6 @@
 .contenedor__canciones {
     display: flex;
     flex-direction: row;
-    /* Darle medidas fijas es como quitarle el fill-container */
-    /* width: 1564px;
-    height: 370px; */
-
-    /* No olvides la propiedad de wrap para que se adapte si no hay espacio */
-    flex-wrap: wrap;
-
     gap: 20px;
     padding: 30px 0px;
 
@@ -139,8 +131,6 @@
     border-radius: 20px;
     box-shadow: 3px 10px 7.1px #00000025;
     padding: 6px 10px;
-    /* width: 346px;
-    height: 370px; */
 }
 
 .contenedor__canciones__autor__foto {
@@ -272,9 +262,6 @@
 
 .seccion2__titulo {
     text-align: center;
-    /* Darle medidas fijas es como quitarle el fill-container */
-    /* width: 1564;
-    height: 190px; */
 }
 
 
@@ -312,12 +299,10 @@
 
 .footer{
     display: flex;
-    /* Darle medidas fijas es como quitarle el fill-container */
-    /* width: 1564px;
-    height: 224px; */
     padding: 160px 82px;
     flex-direction: row;
     gap: 210px;
+    background-color: #41143D;
 }
 
 .footer__seccion {
