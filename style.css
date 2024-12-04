@@ -114,7 +114,7 @@
 .contenedor__canciones {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
     padding: 30px 0px;
 
 }
@@ -135,8 +135,6 @@
 
 .contenedor__canciones__autor__foto {
     display: flex;
-    width: 326px;
-    height: 223px;
     align-items: center;
     justify-content: center;
     border-radius: 26px;
@@ -235,14 +233,13 @@
     display: flex;
     padding: 18px 60px 0px 60px;
     gap: 20px;
+    justify-content: center;
     flex-direction: row;
 
 }
 .seccion__acciones__columna__fila {
     display: flex;
-    width: 712px;
-    height: 144px;
-    padding: 0px 100px;
+    padding: 30px 200px;
     gap: 20px;
     background-color: #85768260;
     border-radius: 84px;
@@ -262,6 +259,8 @@
 
 .seccion2__titulo {
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -284,10 +283,7 @@
 }
 
 .seccion2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 60px 38px;
+    padding: 20px 60px 0px;
 }
 
 .contenedor2{
@@ -299,9 +295,9 @@
 
 .footer{
     display: flex;
-    padding: 160px 82px;
+    padding: 20px 82px;
     flex-direction: row;
-    gap: 210px;
+    gap: 300px;
     background-color: #41143D;
 }
 
