@@ -114,9 +114,10 @@
 
 .contenedor__canciones {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     padding: 30px 0px;
+    flex-wrap: wrap;
+    gap: 16px;
 
 }
 
@@ -236,6 +237,8 @@
     gap: 20px;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+
 
 }
 .seccion__acciones__columna__fila {
@@ -298,7 +301,7 @@
     display: flex;
     padding: 20px 82px;
     flex-direction: row;
-    gap: 300px;
+    justify-content: space-between;
     background-color: #41143D;
 }
 
