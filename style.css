@@ -160,9 +160,9 @@
 
 .contenedor__canciones__autor__descripcion__tituloyvaloracion{
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
     padding: 20px 10px 10px;
-    align-items: start;
+    align-items: center;
 }
 
 .contenedor__canciones__autor__descripcion__autor{
